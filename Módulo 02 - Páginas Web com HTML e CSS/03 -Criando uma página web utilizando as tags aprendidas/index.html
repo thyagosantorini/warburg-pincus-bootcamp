@@ -14,8 +14,7 @@
     <!-- <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p> -->
     <ol>
         <li><a href="#historia">História dos computadores</a></li>
-        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
-        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#clients">Modelo Client-Servidor <i>Clients</i>?</a></li>
         <li><a href="#tags">Como é uma estrutura básica de um HTML?</a></li>
         <li><a href="#ref">Links de referências</a></li>
     </ol>
@@ -142,6 +141,8 @@
         <li>Conecta-se a um pequeno número de servidores de uma só vez;</li>
         <li>liNormalmente interage diretamente com os servidores através de seu software aplicação especifico, que lhe possibilita a comunicação com o servidor;</li>
     </ul>
+
+    <h4>características do Servidor</h4>
     
     <ul>
         <li>Sempre espera por um pedido de um cliente;</li>
@@ -150,6 +151,8 @@
         <li>Fornece recursos de rede.</li>
         <li>Normalmente interage diretamente com os usuários finais através de qualquer interface com o usuário;</li>
     </ul>
+
+    <small><a href="#indice">Voltar</a></small>
 
     <h2 id="tags">Como é uma estrutura básica de um HTML?</h2>
     <!-- <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
@@ -161,16 +164,32 @@
         HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. "Hipertexto" refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou entre sites. Links são um aspecto fundamental da web. Ao carregar conteúdo na Internet e vinculá-lo a páginas criadas por outras pessoas, você se torna um participante ativo na world wide web. 
     </p>
 
+    <p>O HTML usa "Marcação" para anotar texto, imagem e outros conteúdos para exibição em um navegador da Web. A marcação HTML inclui "elementos" especiais, como <a href="/pt-BR/docs/Web/HTML/Element/head"><code>&lt;head&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/title"><code>&lt;title&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/body"><code>&lt;body&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/header"><code>&lt;header&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/footer"><code>&lt;footer&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/article"><code>&lt;article&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/section"><code>&lt;section&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/div"><code>&lt;div&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/span"><code>&lt;span&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/img"><code>&lt;img&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/aside"><code>&lt;aside&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/Audio"><code>&lt;audio&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/canvas"><code>&lt;canvas&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/datalist"><code>&lt;datalist&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/details"><code>&lt;details&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/embed"><code>&lt;embed&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/nav"><code>&lt;nav&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/Output"><code>&lt;output&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/progress"><code>&lt;progress&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/Video"><code>&lt;video&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/ul"><code>&lt;ul&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/ol"><code>&lt;ol&gt;</code></a>, <a href="/pt-BR/docs/Web/HTML/Element/li"><code>&lt;li&gt;</code></a> e muitos outros.</p>
+
+    <h2>Elementos de Cabeçalho</h2>
+
     <p>
-        O HTML usa "Marcação" para anotar texto, imagem e outros conteúdos para exibição em um navegador da Web. A marcação HTML inclui "elementos" especiais, como <pre> <head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol>, <li> </pre> e muitos outros.
+        Elementos de <strong>cabeçalho</strong> são implementados em seis níveis, <code>&lt;h1&gt;</code> é o mais importante e <code>&lt;h6&gt;</code> é o de menor importância. Um elemento de cabeçalho descreve brevemente o tópico da seção em que ele está. As informações de cabeçalho podem ser usadas por agentes de usuário, por exemplo, para construir uma tabela de conteúdos para um documento automaticamente.
     </p>
 
-    <h2 id="ref">Links de referências</h2><small><a href="">Voltar</a></small>
+    <pre>
+        <code>&lt;h1&gt;Cabeçalho de Nível 1&lt;/h1&gt;</code>
+        <code>&lt;h2&gt;Cabeçalho de Nível 2&lt;/h2&gt;</code>
+        <code>&lt;h3&gt;Cabeçalho de Nível 3&lt;/h3&gt;</code>
+        <code>&lt;h4&gt;Cabeçalho de Nível 4&lt;/h4&gt;</code>
+        <code>&lt;h5&gt;Cabeçalho de Nível 5&lt;/h5&gt;</code>
+        <code>&lt;h6&gt;Cabeçalho de Nível 6&lt;/h6&gt;</code>
+    </pre>
+
+<h2>Para Saber Mais:</h2>
+
+    <h3 id="ref">Links de referências</h3><small><a href="">Voltar</a></small>
     
     <ul>
         <li><a href="#indice">http://dio.me</a></li>
         <li><a href="#">http://w3c.org</a></li>
         <li><a href="https://www.tecmundo.com.br/tecnologia-da-informacao/1697-a-historia-dos-computadores-e-da-computacao.htm">Tecmundo</a></li>
+        <li><a href="https://developer.mozilla.org/">MDN</a></li>
     </ul>
 
 </body>
